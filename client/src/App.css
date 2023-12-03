@@ -1,0 +1,260 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fcfdfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  gap: 10px;
+  padding: 2%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+button {
+  font-size: medium;
+  border: none;
+  background-color: rgb(186, 133, 34);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(197, 196, 196);
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: fit;
+}
+
+.btn-avatar{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: transparent;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.contact-list{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.contact-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 15px;
+  position: sticky;
+  top: 2%;
+  margin-bottom: 10px;
+}
+
+.contact-bar a {
+  display: inline-block;
+  padding: 15px;
+  background-color: rgb(186, 133, 34);
+  border-radius: 5px;
+  color: black;
+}
+
+.search {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.search input{
+  display: inline-block;
+  border: none;
+  width: 97%;
+  margin-left: 10px; 
+  outline: none;
+}
+
+.contact-data{
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgb(156, 156, 156);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  align-items: center;
+  gap: 20px;
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 150px;
+}
+
+.identity p {
+  text-align: start;
+  margin: 0px;
+}
+
+.identity button {
+  background-color: transparent;
+  padding: 0px;
+  margin-left: 5px;
+}
+
+.btn-identity {
+  display: flex;
+  align-items: flex-start;
+}
+
+.btn-image {
+  width: 100px;
+  height: 100px;
+}
+
+.identity form {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.identity  input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.add-contact {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.add-contact form {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.add-contact input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.btn-form-add {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btn-form-add button, .btn-form-add a {
+  flex-grow: 1;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgb(186, 133, 34);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.update-avatar {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.update-avatar form {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.update-avatar input {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn-form-update {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btn-form-update button, .btn-form-update a {
+  flex-grow: 1;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgb(186, 133, 34);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.preview {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+.preview img {
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 610px) {
+  .contact-data {
+    width: 95%;
+    min-width: fit-content;
+  }
+
+  .add-contact {
+    width: 100%;
+    min-width: 150px;
+  }
+
+  .update-avatar {
+    width: 100%;
+    min-width: 200px;
+  }
+}
