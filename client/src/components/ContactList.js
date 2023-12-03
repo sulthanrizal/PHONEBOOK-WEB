@@ -3,7 +3,7 @@ import ContactData from "./ContactData"
 import { useCallback, useEffect, useState } from "react";
 import { loadContact, loadPage } from "../actions/contacts";
 
-export default function ContactList({ filter }) {
+export default function ContactList({ filter, setShow, setId }) {
 
     const contacts = useSelector(state => state.contacts)
     const dispatch = useDispatch()
@@ -38,7 +38,7 @@ export default function ContactList({ filter }) {
 
    
 
-    const contactsNode = contacts.phonebooks.map((item, index) => (<ContactData contact={item} key={index} />));
+    const contactsNode = contacts.phonebooks.map((item, index) => (<ContactData contact={item} key={index} setShow={setShow} setId={setId} />));
     return (
         <div className="contact-list">
             {contactsNode}

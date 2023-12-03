@@ -2,11 +2,11 @@ import { faFloppyDisk, faPenToSquare, faTrashCan } from "@fortawesome/free-solid
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { deleteContact, updateContact } from "../actions/contacts";
+import { updateContact } from "../actions/contacts";
 import { useNavigate } from "react-router-dom";
 
 
-export default function ContactData({ contact }) {
+export default function ContactData({ contact, setShow, setId }) {
 
     const navigate = useNavigate()
     const [isEdite, setIsEdite] = useState(false);
@@ -68,7 +68,7 @@ export default function ContactData({ contact }) {
                         <button onClick={() => setIsEdite(!isEdite)}>
                             <FontAwesomeIcon icon={faPenToSquare} />
                         </button>
-                        <button type="button" onClick={() => dispatch(deleteContact(contact.id))}>
+                        <button type="button" onClick={() => {setId(contact.id); setShow(true)}}>
                             <FontAwesomeIcon icon={faTrashCan} />
                         </button>
                     </div>

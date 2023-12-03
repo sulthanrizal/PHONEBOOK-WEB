@@ -17,7 +17,7 @@
   justify-content: center;
   font-size: 14px;
   gap: 10px;
-  padding: 2%;
+  padding: 50px;
 }
 
 .App-link {
@@ -41,13 +41,13 @@ button:active {
   background-color: rgb(197, 196, 196);
 }
 
-img{
+img {
   width: 100%;
   height: 100%;
   object-fit: fit;
 }
 
-.btn-avatar{
+.btn-avatar {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -56,7 +56,7 @@ img{
   padding: 0px;
 }
 
-.contact-list{
+.contact-list {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -70,6 +70,7 @@ img{
 .contact-bar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   gap: 15px;
   position: sticky;
@@ -89,21 +90,21 @@ img{
   border: 1px solid black;
   border-radius: 5px;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   background-color: white;
 }
 
-.search input{
+.search input {
   display: inline-block;
   border: none;
   width: 97%;
-  margin-left: 10px; 
+  margin-left: 10px;
   outline: none;
 }
 
-.contact-data{
+.contact-data {
   height: fit-content;
   display: flex;
   flex-direction: row;
@@ -151,7 +152,7 @@ img{
   gap: 10px;
 }
 
-.identity  input {
+.identity input {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid black;
@@ -186,7 +187,8 @@ img{
   gap: 10px;
 }
 
-.btn-form-add button, .btn-form-add a {
+.btn-form-add button,
+.btn-form-add a {
   flex-grow: 1;
   padding: 10px;
   color: white;
@@ -223,7 +225,8 @@ img{
   gap: 10px;
 }
 
-.btn-form-update button, .btn-form-update a {
+.btn-form-update button,
+.btn-form-update a {
   flex-grow: 1;
   padding: 10px;
   color: white;
@@ -238,6 +241,7 @@ img{
   width: 200px;
   height: 200px;
 }
+
 .preview img {
   object-fit: contain;
 }
@@ -257,4 +261,50 @@ img{
     width: 100%;
     min-width: 200px;
   }
+}
+
+.modal {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: cen;
+  padding: 40px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(163, 160, 160);
+  border-radius: 7px;
+  width: 400px;
+  background-color: #fcfdfd;
+}
+
+.modal-header {
+  padding: 0px 10px;
+}
+
+.modal-body {
+  border-top: 1px solid rgb(163, 160, 160);
+  border-bottom: 1px solid rgb(163, 160, 160);
+  padding: 10px 10px;
+}
+
+.modal-footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: end;
 }
