@@ -3,7 +3,6 @@ var router = express.Router();
 const models = require('../models')
 const path = require("path")
 const fs = require('fs');
-const { error } = require('console');
 const { getPhonebooks, createPhonebook, updatePhonebook, getPhonebook, deletePhonebook } = require('../services/phonebooks');
 
 /* GET home page. */
@@ -58,7 +57,6 @@ router.delete('/phonebooks/:id', async function (req, res, next) {
             res.status(200).json(phonebooks)
         } else throw res.status(500).json(err)
     } catch (err) {
-        console.log(err)
         res.status(500).json(err)
     }
 });
@@ -103,7 +101,6 @@ router.put('/phonebooks/:id/avatar', async function (req, res, next) {
             });
             res.status(201).json(phonebooks[1])
         } catch (err) {
-            console.log(err)
             res.status(500).json(err)
         }
     });

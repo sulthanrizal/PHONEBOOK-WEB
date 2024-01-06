@@ -4,8 +4,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
 const fileUpload = require('express-fileupload');
-const { graphqlHTTP } = require('express-graphql')
-const {schema, solution} = require('./graphql/phonebooksSchema')
 
 
 var indexRouter = require('./routes/index');
@@ -25,10 +23,5 @@ app.use(fileUpload());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/api', apiRouter);
-app.use('/graphql', graphqlHTTP({
-    schema,
-    rootValue: solution,
-    graphiql: true
-}))
 
 module.exports = app;
