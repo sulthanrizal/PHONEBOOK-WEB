@@ -74,19 +74,19 @@ This application should run on port 3001 , you can access it through browser, ju
 ## Preview
 
 * Home
-![Home](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701620439(1).jpeg?raw=true)
+![Home](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/Home.png?raw=true)
 
 * Edit
-![Edit](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701620439(3).jpeg?raw=true)
+![Edit](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/Edit.png?raw=true)
 
 * Add
-![Add](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701620439(4).jpeg?raw=true)
+![Add](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/Add.png?raw=true)
 
 * Avatar
-![alt text](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701620439.jpeg?raw=true)
+![alt text](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/Avatar.png?raw=true)
 
 * Delete
-![alt text](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701623318.jpeg?raw=true)
+![alt text](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/Delete.png?raw=true)
 
 * Demo
 [![Watch the video](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/Demo.png?raw=true)](https://youtu.be/xQlM3NRfIGw)
