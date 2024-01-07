@@ -63,7 +63,7 @@ cd PHONEBOOK-WEB
 # Install dependencies for client
 cd client && npm install
 
-# Start Socket.IO server
+# Start client
 npm start
 ```
 
@@ -73,32 +73,20 @@ This application should run on port 3001 , you can access it through browser, ju
 
 ## Preview
 
-* Sign In
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/SigIn.png?raw=true)
+* Home
+![Home](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701620439(1).jpeg?raw=true)
 
-* Dashboard
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/Dashboard.png?raw=true)
+* Edit
+![Edit](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701620439(3).jpeg?raw=true)
 
-* Goods
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/Goods.png?raw=true)
+* Add
+![Add](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701620439(4).jpeg?raw=true)
 
-* Units
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/Units.png?raw=true)
+* Avatar
+![alt text](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701620439.jpeg?raw=true)
 
-* Suppliers
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/Suppliers.png?raw=true)
-
-* Customers
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/Customers.png?raw=true)
-
-* Users
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/Users.png?raw=true)
-
-* Purchases
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/Purchases.png?raw=true)
-
-* Sales
-![alt text](https://github.com/ramdani221/POS/blob/main/public/screenshots/Sales.png?raw=true)
+* Delete
+![alt text](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/photo1701623318.jpeg?raw=true)
 
 * Demo
-[![Watch the video](https://github.com/ramdani221/POS/blob/main/public/screenshots/Demo.png?raw=true)](https://youtu.be/9TvVxnjgjHA)
+[![Watch the video](https://github.com/ramdani221/PHONEBOOK-WEB/blob/main/screenshots/Demo.png?raw=true)](https://youtu.be/xQlM3NRfIGw)
