@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a simple full stack React application which provides a solid starting point for [ReactJS](https://reactjs.org/), [sequelize](https://sequelize.org/), [ExpressJS](https://expressjs.com/) and [NodeJS](https://nodejs.org/en/) based applications. Client side code and the backend API is written using TypeScript in NextJS.
+This is a simple full stack React application which provides a solid starting point for [ReactJS](https://reactjs.org/), [sequelize](https://sequelize.org/), [ExpressJS](https://expressjs.com/) and [NodeJS](https://nodejs.org/en/) based applications. Client side code and the backend API is written using Express.
 
 Phonebook is an application made to store names and telephone number of friends, family, or other people we recognize.
 
@@ -27,15 +27,14 @@ Make sure you have installed all of the following prerequisites on your developm
  - react-router 
  - redux
  - redux-thunk
- - bootstrap
 
-*source files in `src/` folder.*
+*source files in `client/` folder.*
 ## back-end
 
  - NodeJS
  - ExpressJS
 
-*source files in `src/api` folder*
+*source files in `server/` folder*
 
 ## Getting Started
 
