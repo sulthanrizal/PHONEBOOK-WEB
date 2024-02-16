@@ -1,6 +1,6 @@
 # Phonebook
 
-## Introduction
+## Introducti
 
 This is a simple full stack React application which provides a solid starting point for [ReactJS](https://reactjs.org/), [sequelize](https://sequelize.org/), [ExpressJS](https://expressjs.com/) and [NodeJS](https://nodejs.org/en/) based applications. Client side code and the backend API is written using Express.
 
